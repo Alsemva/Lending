@@ -519,3 +519,55 @@ body * {
     border: 1px solid #E3B873;
     background-color: rgba(0, 0, 0, .3);
 }
+
+.free-measurement-container {
+    margin-top: 170px;
+    max-width: 1450px;
+    background-image: url('../images/free-measurement.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    height: 700px;
+}
+
+.free-measurement-container-left-part {
+    padding-left: 240px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 659px;
+}
+
+.left-part-circle {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    padding: 10px 5px;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.left-part-p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.left-part-text-container {
+    width: 359px;
+    padding-left: 8px;
+}
+
+.free-measurement-container-right-part {
+    height: 506px;
+    width: 506px;
+    background-color: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
