@@ -521,6 +521,8 @@ body * {
 }
 
 .free-measurement-container {
+    display: flex;
+    justify-content: space-between;
     margin-top: 170px;
     max-width: 1450px;
     background-image: url('../images/free-measurement.png');
@@ -530,6 +532,10 @@ body * {
 }
 
 .free-measurement-container-left-part {
+    width: 659px;
+}
+
+.free-measurement-container-part {
     padding-left: 240px;
     padding-top: 70px;
     padding-bottom: 10px;
@@ -566,8 +572,95 @@ body * {
 }
 
 .free-measurement-container-right-part {
-    height: 506px;
+    height: 510px;
     width: 506px;
     background-color: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    margin-right: 111px;
+    margin-top: 68px;
+}
+
+.free-measurement-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.measurement-title {
+    font-family: 'Nunito Sans';
+    text-transform: none;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wrapper-title-form {
+    width: 272px;
+    margin: 26px auto;
+}
+
+.measurement-label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.measurement-input {
+    background-color: #131313;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.form-measurement-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 8px;
+    margin-right: 50px;
+    margin-bottom: 44px;
+}
+
+.label-checkbox-measurement {
+    color: #FFFFFF;
+    margin-top: -26px;
+    margin-left: -116px;
+}
+
+.button-measurement {
+    font-style: normal;
+    padding: 19px 22px;
+    font-size: 13px;
+    line-height: 21px;
+    width: 212px;
+    margin-left: 246px;
+    margin-top: 33px;
+}
+
+.container-doll-pig {
+    background-color: #FFFFFFFF;
+    margin-top: 19px;
+    padding-left: 32px;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.circle-pig {
+    background: #E3B873;
+    border: 0px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 40px;
+    width: 75px;
+    height: 75px;
+    padding: 17px 19px;
+}
+
+.container-doll-pig-text {
+    padding-left: 25px;
+    width: 257px;
+}
+
+.container-doll-pig-p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
 }
