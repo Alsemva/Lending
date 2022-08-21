@@ -1,0 +1,235 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    font-size: 11px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.button {
+    border: 1px solid #E3B873;;
+    background-color: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;   
+    outline: 0;
+    padding: 15px 33px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 11px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+
+ .button:active {
+    top: 0;
+    left: 0;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+ }
+
+ .button-margin-left {
+    margin-left: 20px;
+ }
+
+ .header {
+    background-color: #131313;
+ }
+
+ .container {
+    max-width: 1171px;
+    margin: 0 auto;
+ }
+ 
+ .header-content {
+    max-width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+ }
+
+ .logo {
+    color: #E3B873;
+    text-transform: uppercase;
+ }
+
+.navigation {
+    margin-left: 38px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation-item {
+    margin-right: 53px;
+}
+
+.header-navigation-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-navigation-link:hover {
+    color: #E3B873;
+}
+
+.header-navigation-link:active {
+    color: #E3B873;
+}
+
+.phone {
+    color: #E3B873;
+}
+
+.suggestion {
+    background-image: url('../images/suggestion.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 189px;
+    position: relative;
+}
+
+.suggestion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+}
+
+.suggestion-container {
+    position: relative;
+    padding-right: 656px;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.title-h2 {
+    color: #E3B873;
+    font-size: 27px;
+    line-height: 37px;
+}
+
+.title-h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.highlighting-color {
+    color: #E3B873;
+}
+
+.competed-projects {
+    background-color: #131313;
+    position: relative;
+    height: 1074px;
+}
+
+.project-description {
+    padding-top: 171px;
+    position: relative;
+}
+
+.container-project-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.city {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-city-object {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF; 
+    width: 95px;
+}
+
+.title-wrapper {
+    width: 200px;
+}
+
+.slider-projects {
+    position: relative;
+    color: white;
+    padding-top: 107px;
+}
+
+.slider-project-items {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-bottom: 52px;
+}
+
+.slider-projets-item {
+    display: flex;
+    flex-basis: content;
+    margin-right: 60px;
+    border-bottom: 1px solid #131313;
+    padding-bottom: 7px;
+}
+
+.slider-projets-item:hover {
+    border-bottom: 1px solid #E3B873;
+}
+
+.slider-projets-item:active {
+    border-bottom: 1px solid #E3B873;
+}
+
+.slider-projects-navigation-link {
+    font-family: Yeseva One;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+}
+
+.slider-projects-navigation-link:hover {
+    color:#E3B873;
+}
+
+.slider-projects-navigation-link:active {
+    color:#E3B873;
+}
+
+.slider-projects-element {
+    list-style: none;
+}
+
+.slider-projects-element img{
+    width: 679px;
+    height: 482px;
+}
+
+.subtitle-project-description {
+    font-size: 14px;
+    line-height: 27px;
+}
