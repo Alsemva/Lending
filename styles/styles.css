@@ -281,18 +281,18 @@ body * {
     color:#FFFFFF;
 }
 
-.online-control-icon {
+.center-icon {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
 
-.online-control-icon-wrapper {
+.center-icon-wrapper {
     width: 32px;
     height: 28px;
 }
 
-.online-control-icon-line {
+.icon-line {
     background-color: #E3B873;
     height: 1px;
     width: 32px;
@@ -402,8 +402,8 @@ body * {
 .button-personal-data:active {
     top: 0;
     left: 0;
-    border: 1px solid #ffffff;
-    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid #E3B873;
+    background-color: rgba(0, 0, 0, .3);
  }
 
 .label-checkbox {
@@ -440,4 +440,82 @@ body * {
 
 .checkbox:checked + .fake::before {
     opacity: 1;
+}
+
+.title-types-of-repair {
+    color: #181818;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.types-of-repair-containter {
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1236px;
+}
+
+.types-of-repair-wrapper {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 33px;
+}
+
+.types-of-repair-item {
+    position: relative;
+    height: 608px;
+    width: 392px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.repair-item-1 {
+    background-image: url('../images/redecorating.jpg');  
+}
+
+.repair-item-2 {
+    background-image: url('../images/overhaul.jpg');  
+}
+
+.repair-item-3 {
+    background-image: url('../images/designer-repair.jpg');  
+}
+
+.repair-item-put {
+    padding: 30px 30px 30px 45px;
+    margin: 292px auto;
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.title-item-put {
+    line-height: 25px;
+    color: #363636;
+    text-transform: none;
+}
+
+.types-of-repair-ul {
+    padding-left: 16px;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.repair-button {
+    margin-left: -45px;
+    padding: 17px 22px;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.repair-button:active {
+    top: 0;
+    left: 0;
+    border: 1px solid #E3B873;
+    background-color: rgba(0, 0, 0, .3);
 }
