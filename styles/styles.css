@@ -93,7 +93,8 @@ body * {
     position: relative;
 }
 
-.suggestion::before {
+.suggestion::before,
+.wildest-fantasies::before {
     content: "";
     position: absolute;
     top: 0;
@@ -663,4 +664,60 @@ body * {
     font-size: 18px;
     line-height: 26px;
     color: #E3B873;
+}
+
+.wildest-fantasies {
+    background-image: url('../images/wildest-fantasies.png');
+    background-size: cover;
+    height: 864px;
+    margin-top: 230px;
+    position: relative;
+}
+
+.wildest-fantasies-container {
+    display: flex;
+    position: relative;
+    max-width: 1250px;
+    z-index: 1;
+}
+
+.wildest-fantasies-list-style {
+    padding-top: 135px;
+    padding-right: 110px;
+    width: 488px;
+}
+
+.wildest-fantasies-gallary {
+    display: flex;  
+    flex-direction: column;
+}
+
+.wildest-fantasies-gallary-inline{
+    display: flex;
+}
+
+.wildest-fantasies-gallary-item-1 {
+    margin-top: -40px;
+    width: 354px;
+    height: 557px;
+}
+
+.wildest-fantasies-gallary-item-2 {
+    margin-left: 43px;
+    margin-top: -112px; 
+    width: 354px;
+    height: 275px;
+}
+
+.wildest-fantasies-gallary-item-3 {
+    margin-top: 39px;
+    width: 354px;
+    height: 349px;
+}
+
+.wildest-fantasies-gallary-item-4 {
+    margin-left: 43px;
+    margin-top: -317px;
+    width: 354px;
+    height: 624px;
 }
