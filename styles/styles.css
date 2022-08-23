@@ -721,3 +721,32 @@ body * {
     width: 354px;
     height: 624px;
 }
+
+.wildest-fantasies-list {
+    margin-top: 32px;;
+}
+
+.wildest-fantasies-list-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+
+.wildest-fantasies-list-li {
+    font-size: 20px;
+    line-height: 49px;
+}
+
+.wildest-fantasies-list-li a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.wildest-fantasies-list-li a:hover,
+.wildest-fantasies-list-li a:active {
+    color:#E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 0px;
+}
