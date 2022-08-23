@@ -231,10 +231,22 @@ body * {
     border-bottom: 1px solid #131313;
     padding-bottom: 7px;
 }
-
+/* 
 .slider-projets-item:hover,
 .slider-projets-item:active {
     border-bottom: 1px solid #E3B873;
+} */
+
+.slider-project-items-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-transform: uppercase;
+}
+
+.slider-project-items-li {
+    padding-right: 59px;
 }
 
 .slider-projects-navigation-link {
@@ -247,6 +259,8 @@ body * {
 .slider-projects-navigation-link:hover,
 .slider-projects-navigation-link:active {
     color:#E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 5px;
 }
 
 .slider-projects-element {
