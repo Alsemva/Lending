@@ -479,6 +479,24 @@ body * {
     margin-top: 33px;
 }
 
+.price-meter {
+    background-color: #E3B873;
+    padding: 16px 17px;
+    width: 228px;
+    margin-left: -44px;
+    margin-top: 16px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.price-meter-p {
+    font-family: 'Yeseva One';
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 .types-of-repair-item {
     position: relative;
     height: 608px;
@@ -503,7 +521,7 @@ body * {
     padding: 30px 30px 30px 45px;
     margin: 292px auto;
     width: 330px;
-    height: 330px;
+    height: 302px;
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
@@ -519,21 +537,6 @@ body * {
     font-size: 13px;
     line-height: 27px;
     color: #959595;
-}
-
-.repair-button {
-    margin-left: -45px;
-    padding: 17px 22px;
-    font-size: 18px;
-    line-height: 25px;
-    font-style: normal;
-}
-
-.repair-button:active {
-    top: 0;
-    left: 0;
-    border: 1px solid #E3B873;
-    background-color: rgba(0, 0, 0, .3);
 }
 
 .free-measurement-container {
