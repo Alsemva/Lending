@@ -95,7 +95,8 @@ body * {
 
 .suggestion::before,
 .wildest-fantasies::before,
-.our-clients::before {
+.our-clients::before,
+.contacts::before {
     content: "";
     position: absolute;
     top: 0;
@@ -384,7 +385,7 @@ body * {
 .online-control-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
 }
 
 .form-personal-data {
@@ -599,7 +600,8 @@ body * {
     margin-top: 68px;
 }
 
-.free-measurement-form {
+.free-measurement-form,
+.question-form {
     display: flex;
     flex-direction: column;
 }
@@ -617,11 +619,13 @@ body * {
     margin: 26px auto;
 }
 
-.measurement-label {
+.measurement-label,
+.contacts-label {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.measurement-input {
+.measurement-input,
+.contacts-input {
     background-color: #131313;
     color: #FFFFFF;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -773,7 +777,7 @@ body * {
     background-image: url('../images/city.png');
     background-repeat: repeat-x;
     background-position: left bottom;
-    height: 864px;
+    height: 1051px;
     margin-top: 50px;
     position: relative;
 }
@@ -875,4 +879,49 @@ body * {
 .our-clients-square-days {
     margin-top: 47px;
     margin-left: -21px;
+}
+
+.contacts {
+    background-image: url('../images/city-2.png');
+    background-size: cover;
+    height: 953px;
+    position: relative;
+}
+
+.contacts-before::before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contacts-question-form {
+    background-color: #181818;
+    width: 883px;
+    height: 445px;
+    margin-top: -212px;
+    position: relative;
+    z-index: 1;
+}
+
+.contacts-form-h3 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contacts-personal {
+    display: flex;
+}
+
+.contacts-input {
+    background-color: #181818;
+}
+
+.question-form {
+    align-items: center;
 }
