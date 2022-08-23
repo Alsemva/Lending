@@ -781,6 +781,7 @@ body * {
 
 .our-clients-container {
     position: relative;
+    max-width: 1235px;
     padding-top: 57px;
     z-index: 1;
 }
@@ -790,16 +791,14 @@ body * {
     align-items: center;
 }
 
-.our-clients-title-wrapper-center {
-    width: 420px;
-    padding-top: 7px;
-}
-
-.our-clients-title-wrapper-center p{
+.our-clients-title-wrapper-center{
+    display: flex;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
     color: #363636;
+    width: 420px;
+    padding-top: 7px
 }
 
 .our-clients-title-h2 {
@@ -807,4 +806,70 @@ body * {
     text-align: center;
     font-size: 20px;
     line-height: 28px;
+}
+
+.our-clients-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-clients-wrapper-item {
+    width: 376px;
+    height: 447px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding-left: 20px;
+    padding-top: 45px;
+}
+
+.our-clients-wrapper-item-line {
+    display: flex;
+    padding-right: 55px;
+}
+
+.our-client-image {
+    border-radius: 50%;
+}
+
+.our-client-title-h3 {
+    line-height: 23px;
+    color: #181818;
+    text-transform: none;
+    padding-top: 17px;
+    padding-left: 22px;
+}
+
+.our-clients-wrapper-item-p {
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    padding-right: 35px;
+}
+
+.our-clients-square {
+    display: flex;
+    align-items: center;
+    background-color: #E3B873;
+    height: 54px;
+    padding: 11px 17px;
+    border-right: 1px solid #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.our-clients-square-border {
+    border: none;
+}
+
+.our-clients-square p {
+    padding-left: 15px;
+    font-family: 'Yeseva One';
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our-clients-square-days {
+    margin-top: 47px;
+    margin-left: -21px;
 }
