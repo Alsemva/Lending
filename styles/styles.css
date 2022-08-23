@@ -94,7 +94,8 @@ body * {
 }
 
 .suggestion::before,
-.wildest-fantasies::before {
+.wildest-fantasies::before,
+.our-clients::before {
     content: "";
     position: absolute;
     top: 0;
@@ -763,4 +764,47 @@ body * {
     color:#E3B873;
     border-bottom: 1px solid #E3B873;
     padding-bottom: 0px;
+}
+
+.our-clients {
+    background-image: url('../images/city.png');
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    height: 864px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.our-clients-before::before {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.our-clients-container {
+    position: relative;
+    padding-top: 57px;
+    z-index: 1;
+}
+.our-clients-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-clients-title-wrapper-center {
+    width: 420px;
+    padding-top: 7px;
+}
+
+.our-clients-title-wrapper-center p{
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.our-clients-title-h2 {
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
 }
