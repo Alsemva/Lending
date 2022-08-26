@@ -35,6 +35,10 @@ body * {
     padding: 21px 37px;
  }
 
+.button-suggestion-application-mobile {
+    display: none;
+}
+
  .header {
     background-color: #131313;
  }
@@ -999,4 +1003,95 @@ body * {
 
 .footer-content {
     height: 133px;
+}
+
+/* @import url('./media.css') */
+@media screen and (max-width: 1300px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .header-content,
+    .suggestion-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .header-content .button {
+        display: none;
+    }
+
+    .phone {
+        color: #FFFFFF;
+    }
+
+    .suggestion {
+        height: 476px;
+    } 
+
+    .suggestion {
+        padding-top: 85px;
+    }
+
+    .subtitle {
+        font-size:  14px;
+    }
+
+    .suggestion-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-suggestion-application {
+        display: none;
+    }
+
+    .button-suggestion-application-mobile,
+    .button-suggestion {
+        margin-top: 26px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        margin-right: 0;
+    }
+
+    .button-suggestion-application-mobile {
+        display: inline;
+    }
+
+    .project-description {
+        padding-top: 36px;
+        text-align: center;
+    }
+
+    .container-project-description {
+        flex-direction: column;
+        padding-top: 36px;
+    }
+
+    .title-wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title-wrapper .title-h2 {
+        font-size: 22px;
+        line-height: 138.6%;
+        letter-spacing: -0.07em;
+    }
+
+    .subtitle-project-description {
+        font-size: 11px;
+        margin-left: 40px;
+        margin-right: 40px;
+        line-height: 158.48%;
+    }
+
+    .slider-navigation {
+        display: none;
+    }
+
+    .slider-projects {
+        display: none;
+    }
 }
