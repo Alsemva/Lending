@@ -1020,7 +1020,7 @@ body * {
 }
 
 /* @import url('./media.css') */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 768px) {
 
     .navigation {
         display: none;
@@ -1238,5 +1238,60 @@ body * {
 
     .online-control-personal-data .button-personal-data {
         margin-top: 100px;
+    }
+
+    .types-of-repair-containter .title-types-of-repair {
+        font-size: 22px;
+    }
+
+    .types-of-repair-wrapper {
+        flex-direction: column;
+    }
+
+    .types-of-repair-item {
+        padding-right: 61px;
+        margin-bottom: 59px;
+    }
+
+    .title-item-put {
+        font-size: 15px;
+        line-height: 138.6%;   
+    }
+
+    .free-measurement {
+        display: none;
+    }
+
+    .wildest-fantasies {
+        background-image: none;
+        margin-top: 0;
+    }
+    
+    .wildest-fantasies::before {
+        display: none;
+    }
+   
+    .wildest-fantasies-gallary {
+        display: none;
+    }
+
+    .wildest-fantasies-list {
+        display: none;
+    }
+
+    .wildest-fantasies-list-style .title-h2 {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+
+    .wildest-fantasies-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wildest-fantasies-list-style {
+        width: 310px;
+        padding: 0;
     }
 }
