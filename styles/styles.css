@@ -256,11 +256,6 @@ body * {
     border-bottom: 1px solid #131313;
     padding-bottom: 7px;
 }
-/* 
-.slider-projets-item:hover,
-.slider-projets-item:active {
-    border-bottom: 1px solid #E3B873;
-} */
 
 .slider-project-items-ul {
     display: flex;
@@ -1020,7 +1015,17 @@ body * {
     height: 133px;
 }
 
-/* @import url('./media.css') */
+.contacts-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-title-circle-icon .contacts-icon {
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 768px) {
 
     .navigation {
@@ -1031,6 +1036,11 @@ body * {
     .suggestion-container {
         padding-left: 18px;
         padding-right: 18px;
+    }
+
+    .suggestion-container .title {
+        font-size: 23px;
+        line-height: 132.83%;
     }
 
     .header-content .button {
@@ -1051,6 +1061,7 @@ body * {
 
     .subtitle {
         font-size:  14px;
+        line-height: 135.84%;
     }
 
     .suggestion-container {
@@ -1079,7 +1090,6 @@ body * {
         padding-left: 0;
         text-align: center;
         display: flex;
-        padding-top: 36px;
         flex-direction: column;
         align-items: center;
     }
@@ -1102,8 +1112,8 @@ body * {
 
     .subtitle-project-description {
         font-size: 11px;
-        margin-left: 40px;
-        margin-right: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
         line-height: 158.48%;
     }
 
@@ -1179,8 +1189,8 @@ body * {
 
     .slider-projects-mobile-img,
     .wildest-fantasies-gallary-mobile-img {
-        height: 247px;
-        width: 340px;
+        height: 100%;
+        width: 100%;
     }
 
     .online-control-video-player {
@@ -1376,14 +1386,13 @@ body * {
     }
 
     .contacts-img-map {
-        /* margin-top: -383px; */
         width: 100%;
         padding: 18px;
     }
 
     .contacts-title-h3 {
         width: 100%;
-        /* margin-top: 300px; */
+        font-size: 18px;
         padding-left: 18px;
         padding-right: 18px;
     }
