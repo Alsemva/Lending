@@ -162,7 +162,7 @@ body * {
 }
 
 .competed-projects {
-    background-color: #131313;
+    background-color: #181818;
     position: relative;
     height: 1074px;
     z-index: 0;
@@ -1158,5 +1158,85 @@ body * {
     .container-city-object {
         font-size: 11px;
         line-height: 135.84%;
+    }
+
+    .online-control-title {
+        font-size: 22px;
+        line-height: 138.6%;
+        width: 340px;
+        height: 207px;
+        text-align: center;
+    }
+
+    .slider-projects-mobile-img {
+        height: 247px;
+        width: 340px;
+    }
+
+    .online-control-video-player {
+        height: 207px;
+        width: 340px;
+    }
+
+    .online-control-play-icon img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .online-control-title {
+        height: 0;
+        padding-bottom: 35px;
+    }
+
+    .online-control {
+        background-color: #181818;
+    }
+
+    .line-hr {
+        margin-top: 27px;
+    }
+
+    .online-control-p {
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+    }
+
+    .online-control-form {
+        flex-direction: column;
+    }
+
+    .online-control-personal-data .input {
+        color: #FFFFFF;
+        background-color: #181818;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    }
+
+    .online-control-personal-data {
+        width: 100%;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .online-control-personal-data .label{
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .online-control-personal-data .form-personal-data {
+        margin-right: 0px;
+    }
+
+    .online-control-personal-data .text {
+        color: #FFFFFF;
+    }
+
+    .online-control-personal-data .label-checkbox {
+        margin-top: -125px;
+        justify-content: left;
+        padding-bottom: 75px;
+    }
+
+    .online-control-personal-data .button-personal-data {
+        margin-top: 100px;
     }
 }
