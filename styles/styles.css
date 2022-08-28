@@ -1222,10 +1222,12 @@ body * {
         border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     }
 
-    .online-control-personal-data {
+    .online-control-personal-data,
+    .contacts-personal {
         width: 100%;
         padding-right: 18px;
         padding-left: 18px;
+        margin-top: 0;
     }
 
     .online-control-personal-data .label{
@@ -1234,6 +1236,7 @@ body * {
 
     .online-control-personal-data .form-personal-data {
         margin-right: 0px;
+        margin-top: 60px;
     }
 
     .online-control-personal-data .text {
@@ -1278,6 +1281,7 @@ body * {
     .wildest-fantasies {
         background-image: none;
         margin-top: 0;
+        height: 250px;
     }
     
     .wildest-fantasies::before {
@@ -1307,4 +1311,94 @@ body * {
         width: 310px;
         padding: 0;
     }
+
+    .our-clients {
+        display: none;
+    }
+
+    .contacts {
+        background-image: none;
+        background-color: #181818;
+        height: 1100px;
+    }
+
+    .contacts-question-form {
+        margin-top: -44px;
+        padding-top: 137px;
+        z-index: 0;
+    }
+
+    .contacts-question-form .contacts-personal {
+        flex-direction: column;
+    }
+
+    .contacts-personal {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contacts-question-form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .question-form {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .question-form-data {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts-input-person {
+        width: 100%;
+    }
+
+    .question-form-data-q {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contacts-before::before {
+        display: none;
+    }
+
+    .contacts-question-form .label-checkbox-contacts {
+        justify-content: left;
+        width: 100%;
+    }
+
+    .button-contacts {
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .contacts-img-map {
+        /* margin-top: -383px; */
+        width: 100%;
+        padding: 18px;
+    }
+
+    .contacts-title-h3 {
+        width: 100%;
+        /* margin-top: 300px; */
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .contacts-mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contacts-mobile-wrapper .contacts-icon {
+        justify-content: center;
+    }
+
+    .footer {
+        display: none;
+    }
+    
 }
