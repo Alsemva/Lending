@@ -237,7 +237,8 @@ body * {
     padding-right: 136px;
 }
 
-.slider-projects-mobile {
+.slider-projects-mobile,
+.wildest-fantasies-gallary-mobile {
     display: none;
 }
 
@@ -1114,21 +1115,29 @@ body * {
         display: none;
     }
 
-    .slider-projects-mobile {
+    .slider-projects-mobile,
+    .wildest-fantasies-gallary-mobile {
         display: flex;
         margin-top: 70px;
         position: relative;
         align-items: center;
     }
 
-    .slider-arrow-mobile {
+    .wildest-fantasies-gallary-mobile {
+        margin-top: 24px;
+    }
+
+    .slider-arrow-mobile,
+    .wildest-fantasies-gallary-arrow-mobile {
         background-color: #E3B873;
         width: 36px;
         height: 36px;
         border-radius: 50%;
+        text-align: center;
     }
 
-    .slider-arrow-mobile-icon {
+    .slider-arrow-mobile-icon,
+    .wildest-fantasies-gallary-arrow-mobile-icon {
         padding-top: 10px;
     }
 
@@ -1168,7 +1177,8 @@ body * {
         text-align: center;
     }
 
-    .slider-projects-mobile-img {
+    .slider-projects-mobile-img,
+    .wildest-fantasies-gallary-mobile-img {
         height: 247px;
         width: 340px;
     }
@@ -1249,8 +1259,11 @@ body * {
     }
 
     .types-of-repair-item {
-        padding-right: 61px;
+        padding-right: 39px;
         margin-bottom: 59px;
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 360px;
     }
 
     .title-item-put {
